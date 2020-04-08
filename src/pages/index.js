@@ -76,8 +76,6 @@ const IndexPage = () => {
             </code>{" "}
             with the result rounded to 5 decimals.
           </li>
-          <li>All 16 unit tests are complete and passing.</li>
-          <li>All 5 functional tests are complete and passing.</li>
         </ol>
         <h3>Example usage:</h3>
         <a href="https://flask-metric-imperial-converter.andrew-horn-portfolio.life/api/convert/?input=4gal">
