@@ -13,7 +13,6 @@ const IndexPage = () => {
     let result;
     try {
       const result = await axios.get(`https://flask-metric-imperial-converter.andrew-horn-portfolio.life/api/convert/?input=${input}`)
-      // result = await axios.get(`http://localhost:5000/api/convert/?input=${input}`)
       console.log(result);
       if (result) {
         setReturnedJson(JSON.stringify(result.data))
@@ -96,6 +95,7 @@ const IndexPage = () => {
         <a href="https://flask-metric-imperial-converter.andrew-horn-portfolio.life/api/convert/?input=kg">
           https://flask-metric-imperial-converter.andrew-horn-portfolio.life/api/convert/?input=kg
         </a>
+        <br />
         <br />
         <h3>Example return:</h3>
         <code>
